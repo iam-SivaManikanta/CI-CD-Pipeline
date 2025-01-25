@@ -3,6 +3,5 @@
 - name: this is a playbook for deployment
   hosts: localhost
   connection: local
-  become: yes
   roles:
      - aws_ans
