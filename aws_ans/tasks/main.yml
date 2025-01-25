@@ -1,0 +1,14 @@
+---
+# tasks file for aws_ans
+- name: Create an S3 bucket
+  amazon.aws.s3_bucket:
+        name: my-unique-s3-bucket-name
+        state: present
+        region: ap-south-1
+        tags:
+          Environment: Dev
+  register: s3_result
+
+- name: Print bucket creation result
+  debug:
+     var: s3_result
