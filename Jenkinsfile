@@ -8,7 +8,7 @@ pipeline{
         }
         stage('executing playbook'){
           steps{
-            sh 'ansible-playbook playbook.yml --vault-password-file vault.pass'
+            sh 'ansible-playbook -i inventory.ini playbook.yml --vault-password-file vault.pass'
     }
 }
 }
