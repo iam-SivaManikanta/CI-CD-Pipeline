@@ -2,7 +2,7 @@
 # tasks file for aws_ans
 - name: Create an S3 bucket
   amazon.aws.s3_bucket:
-        name: my-unique-s3-bucket-name
+        name: mysui97363bucket
         state: present
         region: ap-south-1
         aws_access_key: "{{ aws1 }}"
