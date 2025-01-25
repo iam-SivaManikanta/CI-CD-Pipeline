@@ -5,6 +5,8 @@
         name: my-unique-s3-bucket-name
         state: present
         region: ap-south-1
+        aws_access_key: "{{ aws1 }}"
+        aws_secret_key: "{{ aws2 }}"
         tags:
           Environment: Dev
   register: s3_result
