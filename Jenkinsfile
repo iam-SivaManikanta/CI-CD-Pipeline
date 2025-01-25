@@ -1,7 +1,7 @@
 pipeline{
     agent{label 'Linux'}
     stages{
-        stage('clone git '){
+        stage('clone ggit '){
             steps{
              git 'https://github.com/Manikanta937/ans_jen.git'
             }
