@@ -5,3 +5,6 @@ In this project, I have written a playbook using AWS collections to create a S3 
 Git, Github - continous integration,
 Jenkins - Build,
 Ansible - Deploying.
+
+![DevOps](https://github.com/user-attachments/assets/fc49ad46-90ad-4b34-bfe0-945f5662590d)
+
