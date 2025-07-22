@@ -1,5 +1,5 @@
 pipeline{
-    agent{label 'Linux'}
+ecedc    agent{label 'Linux'}
     stages{
         stage('clone ggit '){
             steps{
